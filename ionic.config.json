@@ -1,0 +1,7 @@
+{
+  "name": "NearBuy",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
