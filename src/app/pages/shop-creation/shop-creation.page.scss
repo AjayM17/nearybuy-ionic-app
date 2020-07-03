@@ -1,0 +1,24 @@
+.div-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    padding: 76px 30px;
+}
+
+.shop-name{
+    background: #eee;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #4d4d4d;
+    padding: 4px !important;
+}
+
+.create-shop{
+    background: #6200EE;
+    color: white;
+    padding: 14px 14px;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 500;
+}
