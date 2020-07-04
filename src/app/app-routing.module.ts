@@ -8,7 +8,7 @@ const routes: Routes = [
   // },
   {
     path: '',
-    redirectTo: 'shop-creation',
+    redirectTo: 'login',
     pathMatch: 'full'
   },
   // {
@@ -38,6 +38,10 @@ const routes: Routes = [
   {
     path: 'shop-creation',
     loadChildren: () => import('./pages/shop-creation/shop-creation.module').then( m => m.ShopCreationPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
   },
 ];
 

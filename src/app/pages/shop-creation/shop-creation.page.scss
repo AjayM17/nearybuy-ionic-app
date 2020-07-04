@@ -1,9 +1,22 @@
 .div-center{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin: 0px 16px;
     height: 100vh;
-    padding: 76px 30px;
+    
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+    color: #4d4d4d;
+    margin-bottom: 18px;
+}
+
+.input{
+    margin-bottom: 18px;
 }
 
 .shop-name{
