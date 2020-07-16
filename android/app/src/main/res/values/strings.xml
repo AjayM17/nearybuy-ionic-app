@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ShopApp</string>
+    <string name="title_activity_main">ShopApp</string>
+    <string name="package_name">cm.shop</string>
+    <string name="custom_url_scheme">cm.shop</string>
+</resources>
